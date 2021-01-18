@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row justify-content-center align-items-center flex-column">
+    <div class="col-auto">
+      <input
+        type="text"
+        placeholder="Enter the number..."
+        [(ngModel)]="userInput"
+      />
+    </div>
+    <div class="col-auto mt-4">
+      <button class="btn btn-success" (click)="proceedToResult()">
+        Proceed
+      </button>
+    </div>
+  </div>
+</div>

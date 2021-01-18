@@ -1,0 +1,8 @@
+.row {
+  min-height: calc(100vh - 70px);
+}
+
+.col-auto {
+  border-radius: 20px;
+  box-shadow: 2px 5px 5px silver;
+}

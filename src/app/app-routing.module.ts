@@ -1,16 +1,17 @@
-import { AppComponent } from './app.component';
-import { NgModule, Component } from '@angular/core';
+import { ResultComponent } from './pages/result/result.component';
+import { HomeComponent } from './pages/home/home.component';
+import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {
     path: "",
     pathMatch: "full",
-    component: AppComponent
+    component: HomeComponent
   },
   {
     path: "result",
-    component: AppComponent
+    component: ResultComponent
   },
 ];
 
